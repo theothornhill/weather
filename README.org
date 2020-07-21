@@ -1,0 +1,24 @@
+* Weather.lisp
+
+Fetch weather from yr.no in a small CLI utility.
+
+** Prereqs
+Download the cities from  =https://simplemaps.com/data/world-cities=, and place the csv in root.
+
+** Build
+#+begin_src shell
+sbcl --non-interactive --load build.lisp
+#+end_src
+
+inside root folder, then
+
+#+begin_src shell
+./weather <city name here>
+#+end_src
+
+** Bugs
+Yes
+
+
+
+
